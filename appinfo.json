@@ -1,0 +1,56 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "archangel2000@gmail.com",
+    "enableMultiJS": true,
+    "longName": "Esiotrot",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/waltographUI.ttf",
+                "name": "FONT_WALT_BOLD_28",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/Hanged Letters.ttf",
+                "name": "FONT_HANG_REGULAR_26",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/orange juice 2.0.ttf",
+                "name": "FONT_OJ_REGULAR_26",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "images/Bluetooth",
+                "name": "IMAGE_BT_ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Turtoise",
+                "name": "IMAGE_TURTOISE_STATIC",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Esiotrot",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "0a5090b7-d0b5-48ad-8e08-9cc224c0aa61",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
