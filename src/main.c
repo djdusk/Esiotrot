@@ -1,6 +1,6 @@
 /*
  * main.c
- * Esitrot (Tortoise)
+ * Esitrot (Tortoise) original
  */
 
 #include <pebble.h>
@@ -25,6 +25,10 @@ static void bluetooth_callback(bool connected) {
 }
 
 static void battery_callback(BatteryChargeState state) {
+  //if (charge_state.is_charging) {
+  //  
+  //}
+  
   // Record the new battery level
   s_battery_level = state.charge_percent;
   
@@ -89,7 +93,7 @@ static void main_window_load(Window *window) {
   
   // Create T I M E TextLayer
   s_time_layer = text_layer_create(
-      GRect(0, PBL_IF_ROUND_ELSE(12, 52), bounds.size.w, 50));
+      GRect(0, PBL_IF_ROUND_ELSE(12, 60), bounds.size.w, 50));
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_text_color(s_time_layer, GColorBlack);
   text_layer_set_text(s_time_layer, "00:00");
@@ -116,7 +120,7 @@ static void main_window_load(Window *window) {
   s_bt_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_BT_ICON);
   
   // Create the BitmapLayer to display the GBitmap
-  s_bt_icon_layer = bitmap_layer_create(GRect(58, 75, 20, 20));
+  s_bt_icon_layer = bitmap_layer_create(GRect(58, 77, 20, 20));
   bitmap_layer_set_bitmap(s_bt_icon_layer, s_bt_icon_bitmap);
   layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(s_bt_icon_layer));
   

@@ -3,12 +3,37 @@
     "capabilities": [
         ""
     ],
-    "companyName": "archangel2000@gmail.com",
+    "companyName": "Metacortex",
     "enableMultiJS": true,
     "longName": "Esiotrot",
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/tortoise_shell.png",
+                "name": "IMAGE_TORTOISE_SHELL",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Tortoise",
+                "name": "IMAGE_TURTOISE_STATIC",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
+            {
+                "file": "images/esiotrot_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_ESIOTROT_ICON",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
             {
                 "file": "fonts/waltographUI.ttf",
                 "name": "FONT_WALT_BOLD_28",
@@ -31,14 +56,6 @@
                 "file": "images/Bluetooth",
                 "name": "IMAGE_BT_ICON",
                 "targetPlatforms": null,
-                "type": "bitmap"
-            },
-            {
-                "file": "images/Turtoise",
-                "name": "IMAGE_TURTOISE_STATIC",
-                "targetPlatforms": [
-                    "chalk"
-                ],
                 "type": "bitmap"
             }
         ]
